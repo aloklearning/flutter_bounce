@@ -68,7 +68,8 @@ class BounceState extends State<Bounce> with SingleTickerProviderStateMixin{
     _animate.forward();
 
     //Now reversing the animation after the user defined duration
-    Future.delayed(userDuration, (){
+    Future.delayed(
+      userDuration != null ? userDuration : Duration(milliseconds: 100), () {
       _animate.reverse();
 
       //Calling the callback but with a null check

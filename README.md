@@ -19,11 +19,17 @@ To use this plugin, add `flutter_bounce` as a [dependency in your pubspec.yaml f
 
 ## Example
 
-Import the library
+- Import the library
 
 ```dart
 import 'package:flutter_bounce/flutter_bounce.dart';
 ```
+
+- In order to use this package, we just need to wrap the content with the widget `Bounce`.
+
+- `child`, `duration` and `onPressed` is mandatory in the widget. 
+- However, `onPressed` can have null in your 
+
 
 
 
