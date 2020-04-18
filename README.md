@@ -12,6 +12,12 @@
 - Flutter bounce package will give you full freedom, to be used in on both the **static** and **dynamic like scrolling pages**.
 - Not sticky on scrolling, efficient bounce effect every where
 - With **Duration**, controll the bounce animation
+- It doesn't let the widget stay pressed when you scroll through, if we use the normal bounce effect with simply using the `Flutter AnimationController` and `Tranform.scale()` Widget. 
+
+## Disclaimer
+
+- Widget `flutter_widget` is not the copy paste of `bouncing_widget`, it works differently. Without limitations, and the functionality works differently, based upon the `duration`, and not on the `scaleFactor`. 
+- It doesn't have the `scaleFactor` at all, which is required in the widget
 
 ## Usage
 
