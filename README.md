@@ -50,6 +50,10 @@ Bounce(
 )
 ```
 
+## Acknowledgement
+
+I would like to thank [ThomasEcalle](https://github.com/ThomasEcalle) for the motivation to come up with an efficient work around, which will now be useful for our flutter community people
+
 
 
 
