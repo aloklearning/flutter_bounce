@@ -19,9 +19,15 @@ To use this plugin, add `flutter_bounce` as a [dependency in your pubspec.yaml f
 
 ## Demo
 
-1. Simple Bounce with varied Duration:
+This is how the `Bounce` Widget works when wrapped around the widget. The below shows `Bounce` being used in both the scenario:
+1. Static Page
+2. Scroll Page
+    - Horizontal Scroll
+    - Vertical Scroll
+
 
 ![](assets/simple-bounce.gif)
+![](assets/scroll-bounce.gif)
 
 ## Example
 
