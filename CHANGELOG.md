@@ -14,6 +14,10 @@
 
 * TODO: Format changed in README
 
-## [1.0.4] - TODO: 19th Apr, 2020
+## [1.0.4] - TODO: 19th Apr, 2020 [IST]
 
 * TODO: Added license to the project
+
+## [1.0.5] - TODO: 19th Apr, 2020 [IST]
+
+* TODO: Changes in the overall README file for the package
