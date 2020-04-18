@@ -5,3 +5,7 @@
 ## [1.0.1] - TODO: 18th Apr, 2020
 
 * TODO: Made changes as per the health check from the pub.dev
+
+## [1.0.2] - TODO: 18th Apr, 2020
+
+* TODO: Description changes in the Pubspec file
