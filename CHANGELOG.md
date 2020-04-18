@@ -1,3 +1,3 @@
-## [1.0.0] - TODO: Add release date.
+## [0.0.1] - TODO: Add release date.
 
 * TODO: Added bounce library to the project
