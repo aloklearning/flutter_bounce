@@ -22,7 +22,7 @@ To use this plugin, add `flutter_bounce` as a [dependency in your pubspec.yaml f
 Import the library
 
 ```
-import `'package:flutter_bounce/flutter_bounce.dart'`;
+import 'package:flutter_bounce/flutter_bounce.dart';
 ```
 
 
