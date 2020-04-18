@@ -28,7 +28,21 @@ import 'package:flutter_bounce/flutter_bounce.dart';
 - In order to use this package, we just need to wrap the content with the widget `Bounce`.
 
 - `child`, `duration` and `onPressed` is mandatory in the widget. 
-- However, `onPressed` can have null in your 
+- However, `onPressed` and `duration` can have `null` in the widget. By default `duration` is set to `100 milliseconds`.
+
+**Please Note:** Always pass the duration in `milliseconds` for best result
+
+```dart
+Bounce(
+  duration: Duration(milliseconds: 110),
+  onPressed: (){ YOUR_FUNCTION },
+  child: YOUR_WIDGET
+)
+```
+
+
+
+
 
 
 
