@@ -1,14 +1,23 @@
 # flutter_bounce
 
-This package is for on tap bounce effect on any widgets on Flutter
+- An efficient flutter package for an **on-tap bounce** animation on any flutter widgets 
+- This package is an enhanced version of [bouncing_widget](https://pub.dev/packages/bouncing_widget).
+- **Limitation** of the above package: 
+    - It is not efficient for the widgets in Scroll Paged. We cannot scroll while having our fingers on the widget
+    - The same issue would be found [here](https://github.com/ThomasEcalle/bouncing_widget/issues/1)
 
-## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+## Advantages
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+- Flutter bounce package will give you full freedom, to be used in on both the **static** and **dynamic like scrolling pages**.
+- Not sticky on scrolling, efficient bounce effect every where
+
+## Usage
+
+To use this plugin, add `flutter_bounce` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/packages-and-plugins/using-packages).
+
+## Example
+
+
+
+
