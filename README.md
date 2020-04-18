@@ -17,6 +17,12 @@
 
 To use this plugin, add `flutter_bounce` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/packages-and-plugins/using-packages).
 
+## Demo
+
+1. Simple Bounce with varied Duration:
+
+![](assets/simple-bounce.gif)
+
 ## Example
 
 - Import the library
