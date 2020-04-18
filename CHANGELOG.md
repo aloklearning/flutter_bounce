@@ -9,3 +9,7 @@
 ## [1.0.2] - TODO: 18th Apr, 2020
 
 * TODO: Description changes in the Pubspec file
+
+## [1.0.3] - TODO: 18th Apr, 2020
+
+* TODO: Format changed in README
