@@ -2,6 +2,7 @@
 
 [![pub_package](https://img.shields.io/pub/v/flutter_bounce)](https://pub.dev/packages/flutter_bounce)
 [![git_license](https://img.shields.io/github/license/aloklearning/flutter_bounce)](https://github.com/aloklearning/flutter_bounce/blob/master/LICENSE)
+[![build](https://img.shields.io/appveyor/build/gruntjs/grunt)](https://pub.dev/packages/flutter_bounce#-analysis-tab-)
 
 - An efficient flutter package for an **on-tap bounce** animation on any flutter widgets 
 - This package is an enhanced version of [bouncing_widget](https://pub.dev/packages/bouncing_widget).
