@@ -13,3 +13,7 @@
 ## [1.0.3] - TODO: 18th Apr, 2020
 
 * TODO: Format changed in README
+
+## [1.0.4] - TODO: 19th Apr, 2020
+
+* TODO: Added license to the project
