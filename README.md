@@ -18,6 +18,7 @@
 
 - Widget `flutter_widget` is not the copy paste of `bouncing_widget`, it works differently. Without limitations, and the functionality works differently, based upon the `duration`, and not on the `scaleFactor`. 
 - It doesn't have the `scaleFactor` at all, which is required in the widget
+- The code written in such a way that supports the `flutter_bounce` functionality. However, I have taken motivation from the limitations of the `bouncing_widget`
 
 ## Usage
 
