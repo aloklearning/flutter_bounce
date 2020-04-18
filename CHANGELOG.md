@@ -29,3 +29,7 @@
 ## [1.0.7] - TODO: 19th Apr, 2020 [IST]
 
 * TODO: Changes revoked in README file for the package
+
+## [1.0.8] - TODO: 19th Apr, 2020 [IST]
+
+* TODO: Build analysis report submitted
