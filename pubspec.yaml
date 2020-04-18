@@ -1,5 +1,5 @@
 name: flutter_bounce
-description: An effiecient flutter package for an on-tap bounce animation wrapped around any fultter widget. It targets on boththe mobile platforms, i.e., iOS and Android.
+description: An effiecient flutter package for an on-tap bounce animation to the wrapped around widget. It targets on both the mobile platforms, i.e., iOS and Android.
 version: 1.0.1
 author: Alok Kumar <alokk830@gmail.com>
 homepage: https://github.com/aloklearning/flutter_bounce
