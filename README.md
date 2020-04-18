@@ -35,7 +35,8 @@ This is how the `Bounce` Widget works when wrapped around the widget. The below 
     - Horizontal Scroll
     - Vertical Scroll
 
-![](assets/simple-bounce.png)
+![](assets/simple-bounce.gif)
+![](assets/scroll-bounce.gif)
 
 ## Example
 
