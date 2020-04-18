@@ -11,12 +11,20 @@
 
 - Flutter bounce package will give you full freedom, to be used in on both the **static** and **dynamic like scrolling pages**.
 - Not sticky on scrolling, efficient bounce effect every where
+- With **Duration**, controll the bounce animation
 
 ## Usage
 
 To use this plugin, add `flutter_bounce` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/packages-and-plugins/using-packages).
 
 ## Example
+
+Import the library
+
+```
+import `'package:flutter_bounce/flutter_bounce.dart'`;
+```
+
 
 
 
