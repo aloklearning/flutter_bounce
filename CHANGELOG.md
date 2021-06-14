@@ -1,3 +1,7 @@
+## [1.1.0] - TODO: 14th Jun, 2021.
+
+* TODO: Added null-safety support to the project
+
 ## [1.0.0] - TODO: 18th Apr, 2020.
 
 * TODO: Added bounce library to the project

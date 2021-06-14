@@ -9,18 +9,17 @@ class Bounce extends StatefulWidget {
   // This will get the data from the pages
   // Makes sure child won't be passed as null
   Bounce(
-      {@required this.child, @required this.duration, @required this.onPressed})
-      : assert(child != null);
+      {required this.child, required this.duration, required this.onPressed});
 
   @override
   BounceState createState() => BounceState();
 }
 
 class BounceState extends State<Bounce> with SingleTickerProviderStateMixin {
-  double _scale;
+  late double _scale;
 
   // This controller is responsible for the animation
-  AnimationController _animate;
+  late AnimationController _animate;
 
   //Getting the VoidCallack onPressed passed by the user
   VoidCallback get onPressed => widget.onPressed;
@@ -47,7 +46,7 @@ class BounceState extends State<Bounce> with SingleTickerProviderStateMixin {
   @override
   void dispose() {
     // To dispose the contorller when not required
-    _animate?.dispose();
+    _animate.dispose();
     super.dispose();
   }
 
@@ -70,12 +69,11 @@ class BounceState extends State<Bounce> with SingleTickerProviderStateMixin {
     _animate.forward();
 
     //Now reversing the animation after the user defined duration
-    Future.delayed(
-        userDuration != null ? userDuration : Duration(milliseconds: 100), () {
+    Future.delayed(userDuration, () {
       _animate.reverse();
 
-      //Calling the callback but with a null check
-      if (onPressed != null) onPressed();
+      //Calling the callback
+      onPressed();
     });
   }
 }
