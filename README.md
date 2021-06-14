@@ -62,7 +62,8 @@ Bounce(
 
 ## Acknowledgement
 
-I would like to thank [ThomasEcalle](https://github.com/ThomasEcalle) for the indirect motivation via his widget, to come up with an efficient work around, which will now be useful for our flutter community people
+- I would like to thank [Levent Kantaroğlu](https://github.com/leventkantaroglu) for contributing in the recent **null safety** addition to the code, which will now help the community to use this package efficiently.
+- I would like to thank [ThomasEcalle](https://github.com/ThomasEcalle) for the indirect motivation via his widget, to come up with an efficient work around, which will now be useful for our flutter community people
 
 
 
