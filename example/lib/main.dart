@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, required this.title}) : super(key: key);
   final String title;
 
   @override
@@ -31,40 +31,35 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
-    
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            RaisedButton(
-              onPressed: (){ Navigator.push(context, new MaterialPageRoute(
-                builder: (context) => SimpleBounceDemo())
-              ); },
-              elevation: 5.0,
-              color: Theme.of(context).primaryColor,
-              textColor: Colors.white,
-              child: Text('Simple Bounce Demo')
-            ),
-            SizedBox(height: 20.0),
-            RaisedButton(
-              elevation: 5.0,
-              onPressed: (){ Navigator.push(context, new MaterialPageRoute(
-                builder: (context) => BounceScroll())); },
-              textColor: Colors.white,
-              color: Theme.of(context).primaryColor,
-              child: Text('Bounce with Scroll')
-            )
-          ]
-        )
-       ) // This trailing comma makes auto-formatting nicer for build methods.
-    );
+        appBar: AppBar(
+          centerTitle: true,
+          title: Text(widget.title),
+        ),
+        body: Center(
+            child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        new MaterialPageRoute(
+                            builder: (context) => SimpleBounceDemo()));
+                  },
+                  child: Text('Simple Bounce Demo')),
+              SizedBox(height: 20.0),
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        new MaterialPageRoute(
+                            builder: (context) => BounceScroll()));
+                  },
+                  child: Text('Bounce with Scroll'))
+            ])) // This trailing comma makes auto-formatting nicer for build methods.
+        );
   }
 }
